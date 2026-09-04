@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- EDIT: page title shown in the browser tab and in search results -->
+<title>Your Name</title>
+<meta name="description" content="Personal page of Your Name, PhD candidate at Your University.">
+<meta name="author" content="Your Name">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="page">
+
+  <!-- ================================================================
+       TOP: photo + contact + interests on the left, about on the right
+       ================================================================ -->
+  <div class="intro">
+
+    <aside class="profile">
+
+      <!-- EDIT: put your photo in this folder as photo.jpg (roughly 3:4,
+           at least 440x520 px so it stays sharp on retina screens) -->
+      <img class="portrait" src="photo.jpg" alt="Portrait of Your Name">
+
+      <h1 class="name">Your Name</h1>
+      <p class="affiliation">
+        PhD candidate<br>
+        Department of Something<br>
+        Your University
+      </p>
+
+      <nav class="contact" aria-label="Contact and profiles">
+        <!-- EDIT: replace hrefs. Delete any line you don't need. -->
+        <a href="mailto:you@university.edu">you@university.edu</a>
+        <a href="https://github.com/yourhandle">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a>
+        <a href="https://orcid.org/0000-0000-0000-0000">ORCID</a>
+        <a href="cv.pdf">CV (PDF)</a>
+      </nav>
+
+      <section class="interests">
+        <h2>Research interests</h2>
+        <!-- EDIT: three to five is the sweet spot -->
+        <ul>
+          <li>First interest</li>
+          <li>Second interest</li>
+          <li>Third interest</li>
+          <li>Fourth interest</li>
+        </ul>
+      </section>
+
+    </aside>
+
+    <section class="about">
+      <h2>About</h2>
+      <!-- EDIT: one or two short paragraphs. Say what you work on in the
+           first sentence — most visitors read nothing else. -->
+      <p>
+        First paragraph: what you work on and why it matters. Keep it
+        readable by someone from a neighbouring field.
+      </p>
+      <p>
+        Second paragraph: background, advisor, expected defence date, and
+        whether you're looking for positions or collaborations.
+      </p>
+    </section>
+
+  </div>
+
+  <!-- ================================================================
+       NEWS — newest first. Delete the whole <section> if you'd rather
+       not commit to keeping it current; a stale news list looks worse
+       than no news list.
+       ================================================================ -->
+  <section class="block">
+    <h2>News</h2>
+    <ul class="news">
+      <li>
+        <span class="date">Mon 2026</span>
+        <span>Something that happened.</span>
+      </li>
+      <li>
+        <span class="date">Mon 2026</span>
+        <span>Something else that happened.</span>
+      </li>
+      <li>
+        <span class="date">Mon 2025</span>
+        <span>An older item.</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ================================================================
+       PUBLICATIONS — newest first. Copy an <li> to add another.
+       ================================================================ -->
+  <section class="block">
+    <h2>Publications</h2>
+    <ul class="pubs">
+      <li>
+        <p class="pub-title">Title of the paper</p>
+        <p class="pub-meta">A. Author, B. Author, C. Author · Venue Year</p>
+        <p class="pub-links">
+          <a href="#">pdf</a>
+          <a href="#">code</a>
+          <a href="#">bibtex</a>
+        </p>
+      </li>
+      <li>
+        <p class="pub-title">Title of the second paper</p>
+        <p class="pub-meta">A. Author, B. Author · Venue Year</p>
+        <p class="pub-links">
+          <a href="#">pdf</a>
+          <a href="#">bibtex</a>
+        </p>
+      </li>
+      <li>
+        <p class="pub-title">Title of a workshop paper</p>
+        <p class="pub-meta">A. Author · Workshop Name, Year</p>
+        <p class="pub-links">
+          <a href="#">pdf</a>
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ================================================================
+       TALKS
+       ================================================================ -->
+  <section class="block">
+    <h2>Talks</h2>
+    <ul class="entries">
+      <li>
+        <p class="entry-title">Title of the talk</p>
+        <p class="entry-meta">Venue · Month Year · <a href="#">slides</a></p>
+      </li>
+      <li>
+        <p class="entry-title">Title of another talk</p>
+        <p class="entry-meta">Seminar name · Month Year · <a href="#">slides</a></p>
+      </li>
+      <li>
+        <p class="entry-title">Title of a poster</p>
+        <p class="entry-meta">Workshop, poster · Month Year</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ================================================================
+       TEACHING
+       ================================================================ -->
+  <section class="block">
+    <h2>Teaching</h2>
+    <ul class="entries">
+      <li>
+        <p class="entry-title">Course name (course number)</p>
+        <p class="entry-meta">Teaching assistant · Term Year, Term Year</p>
+      </li>
+      <li>
+        <p class="entry-title">Another course (course number)</p>
+        <p class="entry-meta">Teaching assistant · Term Year</p>
+      </li>
+      <li>
+        <p class="entry-title">Supervised theses</p>
+        <p class="entry-meta">Two MSc, one BSc · topics available on request</p>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="foot">
+    <!-- EDIT: or delete this footer entirely -->
+    <p>Last updated Month Year.</p>
+  </footer>
+
+</main>
+
+</body>
+</html>
