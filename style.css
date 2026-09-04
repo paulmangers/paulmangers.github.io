@@ -165,12 +165,9 @@ p { margin: 0; }
 
 /* publications */
 
-.pubs li {
-  padding: 0.8rem 0;
-  border-top: 1px solid var(--rule);
-}
+.pubs li { margin-bottom: 1.1rem; }
 
-.pubs li:last-child { border-bottom: 1px solid var(--rule); }
+.pubs li:last-child { margin-bottom: 0; }
 
 .pub-title { line-height: 1.5; }
 
